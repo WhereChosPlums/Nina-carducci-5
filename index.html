@@ -73,7 +73,12 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="photo_de_nina" width="555" height="553">
+		<picture>
+			<source srcset="./assets/images/nina.webp" media="(max-width: 480px)">
+			<source srcset="./assets/images/nina.webp" media="(max-width: 833px)">
+			<img src="./assets/images/nina.webp" alt="photo_de_nina" width="555" height="553">
+		</picture>
+		
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
