@@ -173,7 +173,12 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="appreil_photo" >
+			<picture>
+				<source srcset="./assets/images/camera-mobile.webp"  media="(max-width: 480px)">
+				<source srcset="./assets/images/camera-mobile.webp"  media="(max-width: 1000px)">
+				<img src="./assets/images/camera.webp" alt="appreil_photo" >
+			</picture>
+			
 		</div>
 	</div>
 </div>
